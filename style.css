@@ -1,0 +1,47 @@
+#signup-form, #login-form{
+    width: 25%;
+    padding: 30px;
+    background-color: rgb(78,82,117);
+    color: rgb(173,177,198);
+    border-radius: 20px;
+    margin: auto;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+}
+input{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 95%;
+    padding: 0 5px;
+    border: 1px solid ;
+    border-radius: 20px;
+    height: 40px;
+}
+form button{
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 50px;
+    background-color: rgb(14,88,255);
+}
+#login-form{
+   visibility: hidden;
+}
+#signup-form label.error,  #login-form label.error{
+    margin-left: 10px;
+    width: auto;
+    color: rgb(238, 66, 66);
+    display: inline;
+}
